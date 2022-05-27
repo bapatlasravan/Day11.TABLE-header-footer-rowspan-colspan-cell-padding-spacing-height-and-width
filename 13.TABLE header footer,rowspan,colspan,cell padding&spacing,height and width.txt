@@ -1,0 +1,108 @@
+<html>
+<title>TABLE WIDH,HIGHT,HEADER,FOOTER,ROWSPAN,COLSPAN,CELL PADDING&SPACING</title>
+<body>
+<font align="center"color="red"><h1><u>TABLE INSERT</u></h1>
+</font><h3>
+To create table in HTML, we use the (table) tag. A table consist of rows and columns, which can be set using one or more table rows(tr),
+table heading(th), and table data i.e. table column (td). A table row is defined by the (tr) tag, To set table header we use the (th) tag. For a table column use the (td) tag.
+table tag is a container tag<h3>
+<font color="green"><h2>EXAMPLE:</h2></font>Here i am creating a table consist of 2 rows,4columnsand one table header<br><br>
+<table border="1">
+<tr> 
+      <th>S.NO</th> <th>NAME</th> <th>BRANCH</th> <th>ID</th> 
+</tr>
+<tr>
+      <td>1</td>  <td>SRAVNAN</td> <td>MECHANICAL</td> <td>15F01A0303</td>
+ </tr>
+ <tr>
+
+      <td>2</td> <td>VENKATESH</td> <td>MECHANICAL</td> <td>15F01A0346</td> 
+</tr>
+</table>
+<hr><hr>
+<center><font color="red"><h1>TABLE HEIGHT&WIDTH<h1></font></center>
+<h3>
+Here we are changing the height and width of the table by addig the (width/height) attrribute to the table tag 
+</h3>
+<font color="green"><h2>EXAMPLE:</h2></font>
+
+<table  border="1" width="300" height="200" >
+<tr> 
+      <th>S.NO</th> <th>NAME</th> <th>BRANCH</th> <th>ID</th> 
+</tr>
+<tr>
+      <td>1</td>  <td>SRAVNAN</td> <td>MECHANICAL</td> <td>15F01A0303</td>
+ </tr>
+ <tr>
+      <td>2</td> <td>VENKATESH</td> <td>MECHANICAL</td> <td>15F01A0346</td> 
+</tr>
+</table>
+<hr><hr>
+<center><font color="red"><h1>Cell padding & Cell casing<h1></font></center>
+<h3>
+<li>The cell padding attribute places spacing around data within each cell.</li>
+<li>The cell spacing attribute places space around each cell in the table.</li>
+</h3>
+<font color="green"><h2>EXAMPLE:1</h2></font>
+<caption>cellspadding</caption>
+<table " border="1" cellpadding="15" >
+<tr> 
+      <th>S.NO</th> <th>NAME</th> <th>BRANCH</th> <th>ID</th> 
+</tr>
+<tr>
+      <td>1</td>  <td>SRAVNAN</td> <td>MECHANICAL</td> <td>15F01A0303</td>
+ </tr>
+ <tr>
+      <td>2</td> <td>VENKATESH</td> <td>MECHANICAL</td> <td>15F01A0346</td> 
+</tr>
+
+
+</table>
+<font color="green"><h2 align="center">EXAMPLE:2</h2></font>
+<center><caption>cellspacing</caption></center>
+<center><table border="1" cellspacing="15"></center>
+<tr> 
+      <th>S.NO</th> <th>NAME</th> <th>BRANCH</th> <th>ID</th> 
+</tr>
+<tr>
+      <td>1</td>  <td>SRAVNAN</td> <td>MECHANICAL</td> <td>15F01A0303</td>
+ </tr>
+ <tr>
+      <td>2</td> <td>VENKATESH</td> <td>MECHANICAL</td> <td>15F01A0346</td> 
+</tr>
+</table>
+<hr><hr>
+<font color="red"><h1>ROWSPAN/COLSPAN<h1></font></center>
+<h3>
+The rowspan and colspan are (td) tag attributes. 
+These are used to specify the number of rows or columns a cell should span. 
+The rowspan attribute is for rows as well as the colspan attribute is for columns.
+ These attributes have numeric values,<br> for example, colspan=3 will span three columns.
+</h3>
+<font color="green"><h2>EXAMPLE:1</h2></font>
+<table border="1">
+<tr> 
+      <th colspan="2">NAME</th> <th>BRANCH</th> <th>ID</th> 
+</tr>
+<tr>
+      <td>1</td>  <td>SRAVNAN</td> <td>MECHANICAL</td> <td>15F01A0303</td>
+ </tr>
+ <tr>
+      <td>2</td> <td>VENKATESH</td> <td>MECHANICAL</td> <td>15F01A0346</td> 
+</tr>
+</table>
+<center><font color="green"><h2>EXAMPLE:ROWSPAN</h2></font></center>
+
+<center><table border="1"></center>
+<tr> 
+      <th colspan="2"NAME</th> <th>BRANCH</th> <th>ID</th> 
+</tr>
+<tr>
+      <td>SRAVNAN</td> <td>MECHANICAL</td> <td>15F01A0303</td>
+ </tr>
+ <tr>
+      <td>2</td> <td>VENKATESH</td> <td>MECHANICAL</td> <td>15F01A0346</td> 
+</tr>
+</table>
+</body>
+</html>
